@@ -27,8 +27,6 @@ namespace VideoRentas
 
         }
 
-
-
         private void cbActivos_CheckedChanged(object sender, EventArgs e)
         {
 
