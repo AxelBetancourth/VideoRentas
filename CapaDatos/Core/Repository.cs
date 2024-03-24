@@ -1,6 +1,8 @@
 ﻿using CapaDatos.BaseDatos;
+using CapaDatos.BaseDatos.Modelos;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +15,7 @@ namespace CapaDatos.Core
 
         public Repository()
         {
+            dbcontext = new RentaContext();
         }
         public void Agregar(T entidad)
         {
