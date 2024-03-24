@@ -1,0 +1,16 @@
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\VideoRentas\VideoRentas\bin\Debug\VideoRentas.exe.config
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\VideoRentas\VideoRentas\bin\Debug\VideoRentas.exe
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\VideoRentas\VideoRentas\bin\Debug\VideoRentas.pdb
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\VideoRentas\VideoRentas\bin\Debug\EntityFramework.dll
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\VideoRentas\VideoRentas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\VideoRentas\VideoRentas\bin\Debug\EntityFramework.xml
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\VideoRentas\VideoRentas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\VideoRentas\VideoRentas\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\VideoRentas\VideoRentas\obj\Debug\VideoRentas.MenuPrincipal.resources
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\VideoRentas\VideoRentas\obj\Debug\VideoRentas.PClientes.resources
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\VideoRentas\VideoRentas\obj\Debug\VideoRentas.Properties.Resources.resources
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\VideoRentas\VideoRentas\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\VideoRentas\VideoRentas\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\VideoRentas\VideoRentas\obj\Debug\CapaPres.61CA7C38.Up2Date
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\VideoRentas\VideoRentas\obj\Debug\VideoRentas.exe
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\VideoRentas\VideoRentas\obj\Debug\VideoRentas.pdb
