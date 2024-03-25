@@ -27,4 +27,8 @@ C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\CapaDatos\obj\Debug\Capa
 C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\CapaDatos\obj\Debug\CapaDatos.pdb
 C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\CapaDatos\obj\Debug\CapaDatos.Migrations.AddTablaPeliculas.resources
+<<<<<<< HEAD
 C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\CapaDatos\obj\Debug\CapaDatos.Migrations.AddTablaRentas.resources
+=======
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\VideoRentas\CapaDatos\obj\Debug\CapaDatos.Migrations.AddTablaPeliculas.resources
+>>>>>>> 36f46dddf560fbb98233799edc6b4a1d40094881

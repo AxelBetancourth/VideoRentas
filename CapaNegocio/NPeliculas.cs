@@ -23,7 +23,7 @@ namespace CapaNegocio
 
         public List<MPeliculas> obtenerPeliculasActivas()
         {
-            return dpeliculas.TodasLasPeliculas().Where(c => c.Estado == false).ToList();
+            return dpeliculas.TodasLasPeliculas().Where(c => c.Estado == true).ToList();
         }
 
         public List<MPeliculas> obtenerPeliculasGrid()
