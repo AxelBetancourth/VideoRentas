@@ -228,12 +228,12 @@
             this.dgPeliculas.AllowUserToAddRows = false;
             this.dgPeliculas.AllowUserToDeleteRows = false;
             this.dgPeliculas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgPeliculas.Location = new System.Drawing.Point(49, 287);
+            this.dgPeliculas.Location = new System.Drawing.Point(49, 295);
             this.dgPeliculas.Margin = new System.Windows.Forms.Padding(2);
             this.dgPeliculas.Name = "dgPeliculas";
             this.dgPeliculas.RowHeadersWidth = 51;
             this.dgPeliculas.RowTemplate.Height = 24;
-            this.dgPeliculas.Size = new System.Drawing.Size(670, 230);
+            this.dgPeliculas.Size = new System.Drawing.Size(619, 139);
             this.dgPeliculas.TabIndex = 45;
             this.dgPeliculas.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgPeliculas_CellDoubleClick);
             // 
@@ -255,7 +255,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(688, 470);
             this.Controls.Add(this.checkBoxEstado);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txtPrecioRenta);

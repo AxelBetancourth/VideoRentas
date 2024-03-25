@@ -43,7 +43,7 @@ namespace CapaDatos
             }
             else
             {
-                var PeliculasInDb = _unitOfWork.Repository<MPeliculas>().Consulta().FirstOrDefault(c => PeliculaId == peliculas.PeliculaId);
+                var PeliculasInDb = _unitOfWork.Repository<MPeliculas>().Consulta().FirstOrDefault(c => c.PeliculaId == peliculas.PeliculaId);
                 if (PeliculasInDb != null)
                 {
                     PeliculasInDb.Nombre = peliculas.Nombre;

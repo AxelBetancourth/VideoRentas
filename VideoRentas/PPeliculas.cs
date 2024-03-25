@@ -37,7 +37,7 @@ namespace VideoRentas
             txtExistencia.Text = "";
             txtPrecioRenta.Text = "";
             checkBoxEstado.Checked = false;
-            //errorProvider1.Clear();
+            errorProvider1.Clear();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -51,7 +51,6 @@ namespace VideoRentas
 
         private void BtnAgregar_Click_1(object sender, EventArgs e)
         {
-
             var agregar = false;
             var peliculaId = txtClienteId.Text.ToString();
             var nombre = txtNombre.Text.ToString();
@@ -152,7 +151,7 @@ namespace VideoRentas
         private void cbActivos_CheckedChanged_1(object sender, EventArgs e)
         {
             dgPeliculas.DataSource = npeliculas.obtenerPeliculasActivas();
-            if (cbActivos.Checked == false)
+            if (cbActivos.Checked == true)
             {
                 CargarDatos();
             }

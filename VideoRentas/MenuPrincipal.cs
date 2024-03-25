@@ -33,7 +33,9 @@ namespace VideoRentas
 
         private void rentasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            PRentas rentas = new PRentas();
+            rentas.MdiParent = this;
+            rentas.Show();
         }
 
         private void MenuPrincipal_Load(object sender, EventArgs e)
