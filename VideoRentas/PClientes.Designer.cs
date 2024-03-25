@@ -70,19 +70,21 @@
             // 
             this.txtApellidos.Location = new System.Drawing.Point(143, 159);
             this.txtApellidos.Name = "txtApellidos";
-            this.txtApellidos.Size = new System.Drawing.Size(388, 22);
+            this.txtApellidos.Size = new System.Drawing.Size(297, 22);
             this.txtApellidos.TabIndex = 21;
+            this.txtApellidos.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtApellidos_KeyPress);
             // 
             // txtNombres
             // 
             this.txtNombres.Location = new System.Drawing.Point(143, 115);
             this.txtNombres.Name = "txtNombres";
-            this.txtNombres.Size = new System.Drawing.Size(388, 22);
+            this.txtNombres.Size = new System.Drawing.Size(297, 22);
             this.txtNombres.TabIndex = 20;
+            this.txtNombres.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombres_KeyPress);
             // 
             // txtClienteId
             // 
-            this.txtClienteId.Location = new System.Drawing.Point(143, 55);
+            this.txtClienteId.Location = new System.Drawing.Point(143, 67);
             this.txtClienteId.Name = "txtClienteId";
             this.txtClienteId.ReadOnly = true;
             this.txtClienteId.Size = new System.Drawing.Size(100, 22);
@@ -123,7 +125,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(12, 57);
+            this.label2.Location = new System.Drawing.Point(12, 69);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(89, 20);
             this.label2.TabIndex = 15;
@@ -136,7 +138,7 @@
             this.cbActivos.Name = "cbActivos";
             this.cbActivos.Size = new System.Drawing.Size(149, 20);
             this.cbActivos.TabIndex = 14;
-            this.cbActivos.Text = "Mostrar solo activas";
+            this.cbActivos.Text = "Mostrar solo activos";
             this.cbActivos.UseVisualStyleBackColor = true;
             this.cbActivos.CheckedChanged += new System.EventHandler(this.cbActivos_CheckedChanged);
             // 
@@ -157,11 +159,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(294, 15);
+            this.label1.Location = new System.Drawing.Point(372, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(289, 25);
+            this.label1.Size = new System.Drawing.Size(192, 25);
             this.label1.TabIndex = 12;
-            this.label1.Text = "Todas los grupos de clientes";
+            this.label1.Text = "Todos los Clientes";
             // 
             // errorProvider1
             // 
