@@ -74,12 +74,6 @@
     <Compile Include="PPeliculas.Designer.cs">
       <DependentUpon>PPeliculas.cs</DependentUpon>
     </Compile>
-    <Compile Include="PRentas.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PRentas.Designer.cs">
-      <DependentUpon>PRentas.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="MenuPrincipal.resx">
@@ -90,9 +84,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PPeliculas.resx">
       <DependentUpon>PPeliculas.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PRentas.resx">
-      <DependentUpon>PRentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

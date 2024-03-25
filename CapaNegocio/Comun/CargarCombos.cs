@@ -8,7 +8,5 @@ namespace CapaNegocio.Comun
 {
     public class CargarCombos
     {
-        public int Valor { get; set; }
-        public string Descripcion { get; set; }
     }
 }
