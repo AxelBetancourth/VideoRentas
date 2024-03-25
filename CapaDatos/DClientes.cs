@@ -52,12 +52,12 @@ namespace CapaDatos
                 return 0;
             }
         }
-        public int Eliminar(int rentaId)
+        public int Eliminar(int clienteId)
         {
-            var RentasInDb = _unitOfWork.Repository<MRentas>().Consulta().FirstOrDefault(c => c.RentaId == rentaId);
-            if (RentasInDb != null)
+            var clientesInDb = _unitOfWork.Repository<MClientes>().Consulta().FirstOrDefault(c => c.ClienteId == clienteId);
+            if (clientesInDb != null)
             {
-                _unitOfWork.Repository<MRentas>().Eliminar(RentasInDb);
+                _unitOfWork.Repository<MClientes>().Eliminar(clientesInDb);
                 return _unitOfWork.Guardar();
             }
             return 0;

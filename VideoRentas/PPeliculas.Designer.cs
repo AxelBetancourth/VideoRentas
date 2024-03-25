@@ -222,21 +222,12 @@
             this.dgPeliculas.AllowUserToAddRows = false;
             this.dgPeliculas.AllowUserToDeleteRows = false;
             this.dgPeliculas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-<<<<<<< HEAD
-            this.dgPeliculas.Location = new System.Drawing.Point(49, 295);
-            this.dgPeliculas.Margin = new System.Windows.Forms.Padding(2);
-            this.dgPeliculas.Name = "dgPeliculas";
-            this.dgPeliculas.RowHeadersWidth = 51;
-            this.dgPeliculas.RowTemplate.Height = 24;
-            this.dgPeliculas.Size = new System.Drawing.Size(619, 139);
-=======
             this.dgPeliculas.Location = new System.Drawing.Point(13, 302);
             this.dgPeliculas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgPeliculas.Name = "dgPeliculas";
             this.dgPeliculas.RowHeadersWidth = 51;
             this.dgPeliculas.RowTemplate.Height = 24;
             this.dgPeliculas.Size = new System.Drawing.Size(893, 265);
->>>>>>> 36f46dddf560fbb98233799edc6b4a1d40094881
             this.dgPeliculas.TabIndex = 45;
             this.dgPeliculas.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgPeliculas_CellDoubleClick);
             // 
@@ -259,11 +250,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
-            this.ClientSize = new System.Drawing.Size(688, 470);
-=======
             this.ClientSize = new System.Drawing.Size(918, 578);
->>>>>>> 36f46dddf560fbb98233799edc6b4a1d40094881
             this.Controls.Add(this.checkBoxEstado);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txtPrecioRenta);
