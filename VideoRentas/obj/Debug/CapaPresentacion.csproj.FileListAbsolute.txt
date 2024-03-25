@@ -20,3 +20,26 @@ C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\VideoRentas\VideoRentas\bin\D
 C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\VideoRentas\VideoRentas\bin\Debug\CapaDatos.dll.config
 C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\VideoRentas\VideoRentas\bin\Debug\CapaNegocio.pdb
 C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\VideoRentas\VideoRentas\bin\Debug\CapaNegocio.dll.config
+C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\bin\Debug\VideoRentas.exe.config
+C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\bin\Debug\VideoRentas.exe
+C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\bin\Debug\VideoRentas.pdb
+C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\bin\Debug\CapaDatos.dll
+C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\bin\Debug\CapaNegocio.dll
+C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\bin\Debug\EntityFramework.dll
+C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\bin\Debug\CapaDatos.pdb
+C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\bin\Debug\CapaDatos.dll.config
+C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\bin\Debug\CapaNegocio.pdb
+C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\bin\Debug\CapaNegocio.dll.config
+C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\bin\Debug\EntityFramework.xml
+C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\obj\Debug\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\obj\Debug\VideoRentas.MenuPrincipal.resources
+C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\obj\Debug\VideoRentas.PClientes.resources
+C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\obj\Debug\VideoRentas.PPeliculas.resources
+C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\obj\Debug\VideoRentas.Properties.Resources.resources
+C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\obj\Debug\VideoRentas.exe
+C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\obj\Debug\VideoRentas.pdb
