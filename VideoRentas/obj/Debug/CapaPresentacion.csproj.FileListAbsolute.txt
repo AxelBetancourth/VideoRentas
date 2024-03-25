@@ -43,3 +43,4 @@ C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\obj\Debug\Ca
 C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\obj\Debug\CapaPresentacion.csproj.CopyComplete
 C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\obj\Debug\VideoRentas.exe
 C:\Users\claud\Source\Repos\AxelBetancourth\VideoRentas\VideoRentas\obj\Debug\VideoRentas.pdb
+C:\Users\axel8\OneDrive\Documentos\Laboratorio Rad\VideoRentas\VideoRentas\obj\Debug\VideoRentas.PPeliculas.resources
