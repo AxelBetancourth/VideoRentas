@@ -21,31 +21,25 @@ namespace CapaNegocio
             return dClientes.TodosLosClientes();
         }
 
-        public List<MClientes> obtenerClientesInactivos()
+        public List<MClientes> obtenerClientesActivos()
         {
             return dClientes.TodosLosClientes().Where(c => c.Estado == true).ToList();
         }
 
-        public List<MClientes> obtenerClientesGrid()
-        {
-            var clientes = dClientes.TodosLosClientes().Select(c => new { c.ClienteId, c.Nombres, c.Apellidos});
-            return dClientes.TodosLosClientes().ToList();
-        }
-
-        public int Agregar(MClientes cliente)
+        public int AgregarClientes(MClientes cliente)
         {
             cliente.FechaIngreso = DateTime.Now;
-            return dClientes.GuardarClientes(cliente);
+            return dClientes.Guardar(cliente);
         }
 
-        public int Editar(MClientes cliente)
+        public int EditarClientes(MClientes cliente)
         {
-            return dClientes.GuardarClientes(cliente);
+            return dClientes.Guardar(cliente);
         }
 
-        public int Eliminar(int clienteId)
+        public int EliminarClientes(int clienteId)
         {
-            return dClientes.EliminarClientes(clienteId);
+            return dClientes.Eliminar(clienteId);
         }
     }
 }

@@ -12,11 +12,12 @@ namespace CapaDatos
 {
     public class DClientes
     {
-        Repository<MClientes> _repository;
+
+        UnitOfWork _unitOfWork;
 
         public DClientes()
         {
-            _repository = new Repository<MClientes>();
+            _unitOfWork = new UnitOfWork();
         }
 
         public int ClienteId { get; set; }
@@ -27,39 +28,37 @@ namespace CapaDatos
 
         public List<MClientes> TodosLosClientes()
         {
-            return _repository.Consulta().ToList();
-
+            return _unitOfWork.Repository<MClientes>().Consulta().ToList();
         }
-        public int GuardarClientes(MClientes clientes)
+        public int Guardar(MClientes clientes)
         {
             if (clientes.ClienteId == 0)
             {
-                _repository.Agregar(clientes);
-                return 1;
+                _unitOfWork.Repository<MClientes>().Agregar(clientes);
+                return _unitOfWork.Guardar();
             }
             else
             {
-                var clientesInDb = _repository.Consulta().FirstOrDefault(c => c.ClienteId == clientes.ClienteId);
+                var clientesInDb = _unitOfWork.Repository<MClientes>().Consulta().FirstOrDefault(c => c.ClienteId == clientes.ClienteId);
                 if (clientesInDb != null)
                 {
                     clientesInDb.Nombres = clientes.Nombres;
                     clientesInDb.Apellidos = clientes.Apellidos;
                     clientesInDb.Estado = clientes.Estado;
-                    clientesInDb.FechaIngreso = clientes.FechaIngreso;
-                    _repository.Editar(clientesInDb);
-                    return 1;
+                    _unitOfWork.Repository<MClientes>().Editar(clientes);
+                    return _unitOfWork.Guardar();
                 }
 
                 return 0;
             }
         }
-        public int EliminarClientes(int clienteId)
+        public int Eliminar(int clienteId)
         {
-            var clientesInDb = _repository.Consulta().FirstOrDefault(c => c.ClienteId == clienteId);
+            var clientesInDb = _unitOfWork.Repository<MClientes>().Consulta().FirstOrDefault(c => c.ClienteId == clienteId);
             if (clientesInDb != null)
             {
-                _repository.Eliminar(clientesInDb);
-                return 1;
+                _unitOfWork.Repository<MClientes>().Eliminar(clientesInDb);
+                return _unitOfWork.Guardar();
             }
             return 0;
         }
