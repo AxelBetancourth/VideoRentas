@@ -152,9 +152,25 @@ namespace VideoRentas
         private void cbActivos_CheckedChanged_1(object sender, EventArgs e)
         {
             dgPeliculas.DataSource = npeliculas.obtenerPeliculasActivas();
-            if (cbActivos.Checked == false)
+            if (cbActivos.Checked == true)
             {
                 CargarDatos();
+            }
+        }
+
+        private void txtExistencia_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtPrecioRenta_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != ','))
+            {
+                e.Handled = true;
             }
         }
     }
