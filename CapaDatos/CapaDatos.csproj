@@ -52,15 +52,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseDatos\Modelos\MClientes.cs" />
+    <Compile Include="BaseDatos\Modelos\MPeliculas.cs" />
     <Compile Include="BaseDatos\RentaContext.cs" />
     <Compile Include="Core\IRepository.cs" />
     <Compile Include="Core\IUnitOfWork.cs" />
     <Compile Include="Core\Repository.cs" />
     <Compile Include="Core\UnitOfWork.cs" />
     <Compile Include="DClientes.cs" />
+    <Compile Include="DPeliculas.cs" />
     <Compile Include="Migrations\202403240154051_AddTablaClientes.cs" />
     <Compile Include="Migrations\202403240154051_AddTablaClientes.Designer.cs">
       <DependentUpon>202403240154051_AddTablaClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202403250433007_AddTablaPeliculas.cs" />
+    <Compile Include="Migrations\202403250433007_AddTablaPeliculas.designer.cs">
+      <DependentUpon>202403250433007_AddTablaPeliculas.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,6 +78,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202403240154051_AddTablaClientes.resx">
       <DependentUpon>202403240154051_AddTablaClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202403250433007_AddTablaPeliculas.resx">
+      <DependentUpon>202403250433007_AddTablaPeliculas.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -19,6 +19,9 @@ namespace VideoRentas
 
         private void peliculasToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            PPeliculas peliculas = new PPeliculas();
+            peliculas.MdiParent = this;
+            peliculas.Show();
         }
 
         private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
