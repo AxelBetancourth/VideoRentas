@@ -37,7 +37,7 @@ namespace VideoRentas
             txtExistencia.Text = "";
             txtPrecioRenta.Text = "";
             checkBoxEstado.Checked = false;
-            //errorProvider1.Clear();
+            errorProvider1.Clear();
         }
 
         private void label1_Click(object sender, EventArgs e)

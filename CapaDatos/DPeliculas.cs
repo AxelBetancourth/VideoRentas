@@ -18,7 +18,6 @@ namespace CapaDatos
             _unitOfWork = new UnitOfWork();
         }
 
-
         public int PeliculaId { get; set; }
         public string Nombre { get; set; }
         public string Genero { get; set; }
@@ -26,9 +25,6 @@ namespace CapaDatos
         public int Existencia { get; set; }
         public decimal PrecioRenta { get; set; }
         public bool Estado { get; set; }
-
-
-
 
         public List<MPeliculas> TodasLasPeliculas()
         {
@@ -43,7 +39,7 @@ namespace CapaDatos
             }
             else
             {
-                var PeliculasInDb = _unitOfWork.Repository<MPeliculas>().Consulta().FirstOrDefault(c => PeliculaId == peliculas.PeliculaId);
+                var PeliculasInDb = _unitOfWork.Repository<MPeliculas>().Consulta().FirstOrDefault(c => c.PeliculaId == peliculas.PeliculaId);
                 if (PeliculasInDb != null)
                 {
                     PeliculasInDb.Nombre = peliculas.Nombre;
