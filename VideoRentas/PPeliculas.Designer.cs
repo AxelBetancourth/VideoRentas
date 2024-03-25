@@ -30,7 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.checkBoxEstado = new System.Windows.Forms.CheckBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.txtPrecioRenta = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.txtExistencia = new System.Windows.Forms.TextBox();
@@ -57,22 +56,12 @@
             // 
             this.checkBoxEstado.AutoSize = true;
             this.checkBoxEstado.Location = new System.Drawing.Point(645, 161);
-            this.checkBoxEstado.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.checkBoxEstado.Margin = new System.Windows.Forms.Padding(4);
             this.checkBoxEstado.Name = "checkBoxEstado";
-            this.checkBoxEstado.Size = new System.Drawing.Size(72, 20);
+            this.checkBoxEstado.Size = new System.Drawing.Size(66, 20);
             this.checkBoxEstado.TabIndex = 62;
-            this.checkBoxEstado.Text = "Estado";
+            this.checkBoxEstado.Text = "Activo";
             this.checkBoxEstado.UseVisualStyleBackColor = true;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(499, 158);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(67, 20);
-            this.label8.TabIndex = 61;
-            this.label8.Text = "Estado";
             // 
             // txtPrecioRenta
             // 
@@ -81,6 +70,7 @@
             this.txtPrecioRenta.Name = "txtPrecioRenta";
             this.txtPrecioRenta.Size = new System.Drawing.Size(247, 22);
             this.txtPrecioRenta.TabIndex = 60;
+            this.txtPrecioRenta.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPrecioRenta_KeyPress);
             // 
             // label7
             // 
@@ -99,16 +89,17 @@
             this.txtExistencia.Name = "txtExistencia";
             this.txtExistencia.Size = new System.Drawing.Size(247, 22);
             this.txtExistencia.TabIndex = 58;
+            this.txtExistencia.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtExistencia_KeyPress);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(499, 67);
+            this.label6.Location = new System.Drawing.Point(417, 64);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(124, 20);
+            this.label6.Size = new System.Drawing.Size(200, 20);
             this.label6.TabIndex = 57;
-            this.label6.Text = "En Existencia";
+            this.label6.Text = "Existencias (Cantidad)";
             // 
             // txtAutores
             // 
@@ -252,7 +243,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(918, 578);
             this.Controls.Add(this.checkBoxEstado);
-            this.Controls.Add(this.label8);
             this.Controls.Add(this.txtPrecioRenta);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.txtExistencia);
@@ -270,7 +260,7 @@
             this.Controls.Add(this.cbActivos);
             this.Controls.Add(this.dgPeliculas);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "PPeliculas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PPeliculas";
@@ -285,7 +275,6 @@
         #endregion
 
         private System.Windows.Forms.CheckBox checkBoxEstado;
-        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox txtPrecioRenta;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtExistencia;
