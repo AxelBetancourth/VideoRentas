@@ -54,6 +54,10 @@ namespace CapaDatos
                 return 0;
             }
         }
+        public MPeliculas ObtenerPeliculaPorId(int peliculaId)
+        {
+            return _unitOfWork.Repository<MPeliculas>().Consulta().FirstOrDefault(c => c.PeliculaId == peliculaId);
+        }
         public int EliminarPeliculas(int peliculaid)
         {
             var PeliculasInDb = _unitOfWork.Repository<MPeliculas>().Consulta().FirstOrDefault(c => c.PeliculaId == peliculaid);

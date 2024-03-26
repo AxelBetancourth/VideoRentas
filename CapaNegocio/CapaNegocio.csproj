@@ -53,7 +53,9 @@
   <ItemGroup>
     <Compile Include="Comun\CargarCombos.cs" />
     <Compile Include="NClientes.cs" />
+    <Compile Include="NoExistenciaException.cs" />
     <Compile Include="NPeliculas.cs" />
+    <Compile Include="NRentas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

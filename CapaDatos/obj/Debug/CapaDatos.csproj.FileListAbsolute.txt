@@ -43,3 +43,4 @@ C:\Users\axel8\Source\Repos\AxelBetancourth\VideoRentas\CapaDatos\obj\Debug\Capa
 C:\Users\axel8\Source\Repos\AxelBetancourth\VideoRentas\CapaDatos\obj\Debug\CapaDatos.csproj.Up2Date
 C:\Users\axel8\Source\Repos\AxelBetancourth\VideoRentas\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\axel8\Source\Repos\AxelBetancourth\VideoRentas\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\claud\source\repos\AxelBetancourth\VideoRentas\CapaDatos\obj\Debug\CapaDatos.Migrations.AddTablaRentas.resources
