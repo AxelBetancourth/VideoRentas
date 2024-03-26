@@ -1,5 +1,6 @@
 ﻿using CapaDatos;
 using CapaDatos.BaseDatos.Modelos;
+using CapaNegocio.Comun;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -46,6 +47,26 @@ namespace CapaNegocio
         {
             return dpeliculas.EliminarPeliculas(peliculaId);
         }
+        public List<CargarCombos> CargaCombo()
+        {
+            List<CargarCombos> Datos = new List<CargarCombos>();
+            var clientes = obtenerPeliculas().Select(c => new
+            {
+                c.Nombre,
+                c.PeliculaId,
+            }).ToList();
+            foreach (var item in clientes)
+            {
+                Datos.Add(new CargarCombos()
+                {
+                    Valor = item.PeliculaId,
+                    Descripcion = item.Nombre
+                });
+            }
+
+            return Datos;
+        }
+
     }
 }
 

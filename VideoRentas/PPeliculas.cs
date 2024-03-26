@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -122,7 +123,6 @@ namespace VideoRentas
 
         private void btnEliminar_Click_1(object sender, EventArgs e)
         {
-
             var peliculaId = txtClienteId.Text.ToString();
             if (string.IsNullOrEmpty(peliculaId) || string.IsNullOrWhiteSpace(peliculaId))
             {
